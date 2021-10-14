@@ -1,0 +1,72 @@
+body {
+background-color: rgb(230, 230, 230);
+font-family: Rockwell , sans-serif;
+text-decoration: none;
+background-image: url(images/fond.jpg);
+}
+h1 {
+	color: rgb(250, 250, 250);
+}
+h2 {
+	color: rgb(250, 250, 250);
+}
+p {
+	font-family: Rockwell;
+	color:  rgb(250, 250, 250);
+}
+a{
+	color:whitesmoke;
+}
+.container{
+	width: 500px;
+	padding: 0px 500px;
+}
+.h1{
+	background-color: rgb(50, 50, 50);
+	box-shadow: 2px 3px 3px rgba(200, 200, 200, 0.15);
+	border-radius: 25px;
+	padding: 1px 20px;
+	margin: 20px;
+	width: 400px;
+	text-align: center;
+	font-family: Rockwell Extra Bold ;
+}
+.Cinéma{
+	background-color: rgb(50, 50, 50);
+	box-shadow: 2px 3px 3px rgba(200, 200, 200, 0.15);
+	border-radius: 25px;
+	padding: 1px 20px;
+	margin: 20px;
+	width: 400px;
+	text-align: center;
+}
+.Piano{
+	background-color: rgb(50, 50, 50);
+	box-shadow: 2px 3px 3px rgba(200, 200, 200, 0.15);
+	border-radius: 25px;
+	padding: 1px 20px;
+	margin: 20px;
+	width: 400px;
+	text-align: center;
+}
+.follow_me{
+	background-color: rgb(50, 50, 50);
+	box-shadow: 2px 3px 3px rgba(200, 200, 200, 0.15);
+	border-radius: 25px;
+	padding: 1px 20px;
+	margin: 20px;
+	width: 400px;
+	text-align: center;
+}
+
+@media (max-width: 720px) {
+	.container {
+ 	width: 500px;
+ }
+ }
+
+ @media (max-width: 540px) {
+	.container {
+ 	width: 300px;
+ }
+ }
